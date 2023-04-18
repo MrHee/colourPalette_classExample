@@ -11,6 +11,7 @@ public class colourPalette {
     //These will create colour palettes.
 
     colourPalette(colour mainColour, int numberOfColours){
+        this.colours = new ArrayList<colour>();
         this.mainColour = mainColour;
         this.numberOfColours = numberOfColours;
         this.colours.add(mainColour);
