@@ -1,9 +1,10 @@
 public class Main {
     public static void main(String[] args) {
 
-        colour newColour = new colour("purple", 200, 5, 200);
+        colour newColour = new colour("purple", 200, 20, 255);
+        colour secondColour = new colour("green", 0, 255, 0);
 
 
-        System.out.println(newColour.getHexCode());
+
     }
 }

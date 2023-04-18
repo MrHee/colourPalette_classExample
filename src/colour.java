@@ -61,5 +61,19 @@ public class colour {
     }
 
 
+    //Let's make a display method using the console strings we tested last week.
+    //System.out.println("\033[48;2;132;72;52m");
+
+void display(){
+    System.out.println("Colour: " + commonName);
+    String colourString = "\033[48;2;" + r + ";" + g + ";" + b + "m";
+    System.out.println(colourString);
+    System.out.println(""); //Create a blank line.
+    System.out.print("\u001B[0m"); //Reset console colour
+}
+
+
+
+
 
 }
