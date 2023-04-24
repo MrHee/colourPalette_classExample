@@ -27,6 +27,37 @@ public class colourPalette {
 
     }
 
+    colourPalette(colour firstKeyColour, colour secondKeyColour, int numberOfColours){
+
+        this.colours = new ArrayList<>();
+        this.mainColour = firstKeyColour;
+        this.numberOfColours = numberOfColours;
+        //Add both key colours to the palette.
+        this.colours.add(firstKeyColour);
+        this.colours.add(secondKeyColour);
+
+        //Generate additional palette colours
+
+        if (this.numberOfColours > 2) {
+            //Third colour is average of the two key colours
+            int r = (firstKeyColour.r + secondKeyColour.r) / 2;
+            int g = (firstKeyColour.g + secondKeyColour.g) / 2;
+            int b = (firstKeyColour.b + secondKeyColour.b) / 2;
+
+            colour temp = new colour("Average of key colours", r, g, b);
+            this.colours.add(temp);
+
+            if (this.numberOfColours > 3) {
+                //fourth colour is the compliment of the average.
+                temp = new colour("Average's compliment", 255 - r, 255 - g, 255 - b);
+                this.colours.add(temp);
+            }
+        }
+
+
+
+    }
+
 
     void display(){
         for (colour c : colours
