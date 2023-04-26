@@ -23,7 +23,31 @@ public class colourPalette {
             int newColourR = 255-mainColour.r;
             int newColourG = 255-mainColour.g;
             int newColourB = 255-mainColour.b;
-            colour temp = new colour(""+ mainColour.commonName +" 's compliment.",  newColourR, newColourG, newColourB);
+            colour temp = new colour(""+ mainColour.commonName +"'s compliment.",  newColourR, newColourG, newColourB);
+            colours.add(temp);
+        }
+
+        if(numberOfColours > 2){
+            int newColourR = 255-mainColour.r;
+            int newColourG = mainColour.g;
+            int newColourB = 255-mainColour.b;
+            colour temp = new colour("Invert magenta",  newColourR, newColourG, newColourB);
+            colours.add(temp);
+        }
+
+        if(numberOfColours > 3){
+            int newColourR = mainColour.r;
+            int newColourG = 255-mainColour.g;
+            int newColourB = 255-mainColour.b;
+            colour temp = new colour("Invert cyan",  newColourR, newColourG, newColourB);
+            colours.add(temp);
+        }
+
+        if(numberOfColours > 4){
+            int newColourR = 255-mainColour.r;
+            int newColourG = 255-mainColour.g;
+            int newColourB = mainColour.b;
+            colour temp = new colour("Invert yellow",  newColourR, newColourG, newColourB);
             colours.add(temp);
         }
 

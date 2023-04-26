@@ -65,7 +65,8 @@ public class colour {
     //System.out.println("\033[48;2;132;72;52m");
 
 void display(){
-    System.out.println("Colour: " + commonName);
+    System.out.print("Colour: " + commonName);
+    System.out.println("     Hex: " + getHexCode());
     String colourString = "\033[48;2;" + r + ";" + g + ";" + b + "m";
     System.out.println(colourString);
     System.out.println(""); //Create a blank line.
