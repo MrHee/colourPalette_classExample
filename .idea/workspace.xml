@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="64517e4f-3980-4be2-9a0e-8736efa6ea49" name="Changes" comment="Second colour added to constructor. Adds complimentary colour.">
+    <list default="true" id="64517e4f-3980-4be2-9a0e-8736efa6ea49" name="Changes" comment="Second palette method (overloaded constructor)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/colourPalette.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/colourPalette.java" afterDir="false" />
@@ -56,7 +56,8 @@
       <workItem from="1681481230354" duration="4495000" />
       <workItem from="1681743308431" duration="153000" />
       <workItem from="1681826302703" duration="5330000" />
-      <workItem from="1682348347655" duration="1019000" />
+      <workItem from="1682348347655" duration="1339000" />
+      <workItem from="1682517911423" duration="1572000" />
     </task>
     <task id="LOCAL-00001" summary="Initial">
       <created>1681484625206</created>
@@ -86,7 +87,14 @@
       <option name="project" value="LOCAL" />
       <updated>1681831066865</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Second palette method (overloaded constructor)">
+      <created>1682349634823</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1682349634823</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -108,7 +116,8 @@
     <MESSAGE value="Added dope display method to my colour class." />
     <MESSAGE value="Added colourPalette class and first constructor." />
     <MESSAGE value="Second colour added to constructor. Adds complimentary colour." />
-    <option name="LAST_COMMIT_MESSAGE" value="Second colour added to constructor. Adds complimentary colour." />
+    <MESSAGE value="Second palette method (overloaded constructor)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Second palette method (overloaded constructor)" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

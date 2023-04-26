@@ -1,10 +1,12 @@
 public class Main {
     public static void main(String[] args) {
 
-        colour newColour = new colour("Bellerose Burgandy", 118, 35, 47);
-        colour secondColour = new colour("PK Blue",150 ,170,250);
+        //Main is for testing.
 
-        colourPalette newPalette = new colourPalette(newColour, secondColour,4);
+        colour newColour = new colour("Mid yellow (brown)", 120, 120, 0);
+        colour secondColour = new colour("Pink",200 ,150,150);
+
+        colourPalette newPalette = new colourPalette(newColour, secondColour,5);
         newPalette.display();
 
     }

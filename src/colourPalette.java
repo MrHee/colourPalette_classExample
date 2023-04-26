@@ -10,8 +10,10 @@ public class colourPalette {
     //Generative Constructors
     //These will create colour palettes.
 
+    //Polymorphism - in OOP, methods with the same name can exist and be used depending on context.
+    //This type of polymorphism called overloading.
     colourPalette(colour mainColour, int numberOfColours){
-        this.colours = new ArrayList<colour>();
+        this.colours = new ArrayList<>();
         this.mainColour = mainColour;
         this.numberOfColours = numberOfColours;
         this.colours.add(mainColour);
@@ -52,6 +54,13 @@ public class colourPalette {
                 temp = new colour("Average's compliment", 255 - r, 255 - g, 255 - b);
                 this.colours.add(temp);
             }
+            if(this.numberOfColours > 4){
+                //fifth colour - an analogous colour from the average.
+                temp = new colour("Average but lighter" , (r+255)/2 , (g+255)/2 , (b+255)/2);
+           this.colours.add(3, temp);
+            }
+
+
         }
 
 
